@@ -3,6 +3,7 @@ body {
   padding-top: 54px;
   color: white;
   background: black;
+
 }
 
 @media (min-width: 992px) {
@@ -145,4 +146,9 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+p
+{
+  font-size: 19px;
 }
