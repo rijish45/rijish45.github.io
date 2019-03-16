@@ -22,7 +22,7 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: rgb(35,35,35);
 }
 
 h1 {
@@ -133,7 +133,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #800000 !important;
+  background-color: black !important;
 }
 
 .text-primary {
@@ -141,7 +141,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-  color: #45B8AC;
+  color: rgb(150, 200, 200);
 }
 
 a:hover, a:focus, a:active {
