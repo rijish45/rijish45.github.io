@@ -178,8 +178,9 @@ p
 
 .thumbnail img{
 
-  width: 300px;
+  width: 280px;
   height: auto;
+  margin:auto;
 
 
 }
