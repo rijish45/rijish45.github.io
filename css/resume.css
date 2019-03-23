@@ -174,3 +174,12 @@ p
     float: left;
     margin: 0 20px 0 0;
 }
+
+
+.thumbnail img{
+
+  width: 300px;
+  height: auto;
+
+
+}
