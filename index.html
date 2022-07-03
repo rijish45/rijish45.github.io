@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-    <title>Rijish Ganguly</title>
+    <title>Rijish Gangul</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +32,7 @@
     <meta property="og:title" content="Rijish Ganguly"/>
     <meta property="og:url" content="https://rijish45.github.io/">
     <meta property="og:type" content="website"/> 
-    <meta property="og:description" content="I'm a graduate student at Duke University pursuing an MS in Computer Engineering. I have a penchant for technology, finance and movies."/>
+    <meta property="og:description" content="I graduated  from Duke University with  an MS in Computer Engineering. I have a penchant for technology, finance and movies."/>
   
   </head>
 
@@ -85,8 +85,7 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <h1 class="mb-0">Rijish
-            <span class="text-primary">Ganguly</span>
+          <h1 class="mb-0">Rijish Ganguly
           </h1>
           <div class="subheading mb-5">
             <a href="mailto:name@email.com">rijish.ganguly@duke.edu</a>
@@ -94,11 +93,14 @@
 
           <br>
           <p class="mb-5"> Welcome to my website. I am Rijish. People call me Rivs/Rij. </p>
+
+           <p class="mb-5">Industrial sectors I am interested in are - civil engineering and infrastructure development, education, food and entertainment, and fin-tech. I strongly care about accessibiltiy to quality education for everyone. Feel free to reach out if you want to collaborate on ideas related to the above mentioned sectors.  You can reach me at <a href="mailto:rg239@duke.edu"> rijish45@bu.edu. </a> </p>
+
           <p class="mb-5"> I'm currently enrolled in the Advanced Management Programme for Infrastructure at <a href ="https://isb.edu"> ISB </a>. I went to graduate school at <a href="https://www.duke.edu"> Duke University </a> where I studied computer engineering and financial economics. Before that, I completed my bachelor’s degree from <a href="https://www.bu.edu"> Boston University </a> where I double-majored in electrical and computer engineering.
 
           I have a penchant for <a href="https://news.ycombinator.com/" target="_blank">technology</a>, <a href="https://www.investopedia.com/" target="_blank">finance </a> and <a href="https://www.imdb.com/chart/top" target="_blank">movies. </a> My current academic interests are software systems, machine learning and finance.</p>
 
-          <p class="mb-5">Industrial sectors I am interested in are - civil engineering and infrastructure development, food and entertainment, and fin-tech. Feel free to reach out if you want to collaborate on ideas.  You can reach me at <a href="mailto:rg239@duke.edu"> rijish45@bu.edu. </a> </p>
+         
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="https://www.facebook.com/rijish45" target="_blank">
@@ -155,7 +157,7 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0"> Project Co-ordinator </h3>
               <div class="subheading mb-3"> <a href="https://civtectindia.com" target = "_blank">Civtect India Private Limited </a> </div>
-              <p> Currently working in the civil engineering domain. Projector Co-ordinator for strengthening and widening of NH8 and NH208 with paved shoulder, in the state of Tripura, under NHIDCL.</p>
+              <p> Currently working in the civil engineering domain leading projects for central and state government
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary"> January 2020 - Present </span>
@@ -330,14 +332,14 @@
               <i class="devicon-csharp-plain colored"></i>
             </li> 
            </ul>
-
+<!-- 
 
           <div class="subheading mb-3"> Academic Interests</div>
-          <ul class="fa-ul mb-0">
+          <ul class="fa-ul mb-0"> -->
          <!--    <li>
               <i class="fa-li fa fa-check"></i>
               Structural Engineering</li> -->
-             <li>
+             <!-- <li>
             <i class="fa-li fa fa-check"></i>
               Machine Learning</li>
             <li>
@@ -347,7 +349,43 @@
               <i class="fa-li fa fa-check"></i>
               Asset Pricing </li>
           </ul>
-        </div>
+        </div> -->
+
+        <div class="container">
+     <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+            <br>
+        <!-- Skill Bars -->
+                <span>Infrastructure</span>
+            <div class="progress skill-bar ">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    
+                </div>
+            </div>
+                
+           <span>Finance</span>     
+            <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" >
+                    
+                </div>
+            </div>
+                <span>Technology</span>
+            <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">    
+                </div>
+            </div>    
+            
+                <span>Education</span>
+            <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+            </div>              
+                </div>
+            </div>                  
+  </div>
+</div>  
+</div>    
+
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
@@ -671,6 +709,15 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+      $('.progress .progress-bar').css("width",
+                function() {
+                    return $(this).attr("aria-valuenow") + "%";
+                }
+        )
+    });
+    </script>
 
   </body>
 </html>
